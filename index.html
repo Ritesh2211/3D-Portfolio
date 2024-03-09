@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+
+<script
+type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<script
+nomodule
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+></script>
+
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+<img src="./assets-20240307T042422Z-001/assets/logo/logo.png"  class="logo">
+<ul class="main-nav-list">
+<li><a href="#" class="main-nav-link">Home</a></li>
+<li><a href="#" class="main-nav-link">Work</a></li>
+<li><a href="#" class="main-nav-link">Skills</a></li>
+<li><a href="#" class="main-nav-link">Contact</a></li>
+</ul>
+</header>
+
+<section class="hero">
+<img src="./assets-20240307T042422Z-001/assets/hero/webdev.png" class="hero-img">
+<img src="./assets-20240307T042422Z-001/assets/hero/bg.jpg" class="bg">
+<div class="hero-description">
+  <h1 class="hero-title" >Hi, I'm <span class="ritesh">Ritesh Katwe</span>
+  !</h1>
+ <p class="hero-subheading"> I develop Full Stack Developer !</p>
+</div>
+<div class="hero-model">
+<model-viewer 
+ src="./models-20240307T042448Z-001/models/desk.glb"
+  camera-controls
+  disable-pan
+  disable-zoom
+  interaction-prompt="none"
+  min-camera-orbit="auto 55deg auto"
+  max-camera-view="auto 92deg auto"
+  field-of-view="35.3deg"
+></model-viewer>
+</div>
+</section>
+
+<section class="about-me">
+  <div class="about-me-description">
+    <p class="introduction">About ME</p>
+    <h2 class="about-me-title">Hello stranger</h2>
+    <p class="about-me-subheading">Started Web Development since I was in 
+      my 3rd year Engineering degree since then creating projects and solving problems.
+     I'm obessed with unique,interesting design and user-freindly functionality.So hit me up for 
+     projects and check out my resume.Thanks for reading.
+    </p>
+  <div class="cards">
+    <div class="card">
+      <img src="./assets-20240307T042422Z-001/assets/skills/react.png" alt="" class="reactImg">
+      <p class="title">React Js</p>
+    </div>
+    <div class="card">
+      <img src="./assets-20240307T042422Z-001/assets/skills/htmlcss.png" alt="" class="htmlcss">
+      <p class="title">HTML & CSS</p>
+    </div>
+    <div class="card">
+      <img src="./assets-20240307T042422Z-001/assets/skills/js.png" alt="" class="js">
+      <p class="title">JavaScript</p>
+    </div>
+    <div class="card">
+      <img src="./assets-20240307T042422Z-001/assets/skills/java.png" alt="" class="java">
+      <p class="title">Java</p>
+    </div>
+    <div class="card">
+      <img src="./assets-20240307T042422Z-001/assets/skills/icons8-mysql-logo-48.png" alt="" class="mysql">
+      <p class="title">MySql</p>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<section class="time-line-section">
+  <div class="time-line-content">
+  <div class="heading-description">
+    <p class="time-line-title">WHAT I HAVE WORKED ON !</p>
+    <h1 class="time-line-subheading">PROJECTS DONE</h1>
+  </div>
+</div>
+</section>
+</body>
+</html>
